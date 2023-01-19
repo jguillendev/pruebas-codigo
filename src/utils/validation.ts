@@ -5,11 +5,11 @@ export default {
         return value != ""
     },
     isLength: (value:string, successLength:number) => {
-        // valida el tamañao
+        // valida el tamaño
         return value.length >= successLength ? true: false;
     },
     isLessOrEqualLength: (value:string, successLength:number) => {
-        // valida el tamañao
+        // valida el tamaño
         return value.length <= successLength ? true: false;
     },
     isAlphabetsText: (value:string) => {
