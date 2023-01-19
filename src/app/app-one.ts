@@ -36,7 +36,6 @@ const nameIsValid = (name:string) =>{
     return haveError ? false : true ;
 }
 
-
 const mobileIsValid = (mobile:string) =>{
     var haveError = false;
     if(validators.isNotEmpty(mobile) === false){
@@ -113,4 +112,5 @@ const sendHandler = () => {
 
 
 }
+
 sendButton.onclick = sendHandler;

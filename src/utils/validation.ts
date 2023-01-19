@@ -1,4 +1,5 @@
 export default {
+    isEmpty: (value:string) => value.length === 0,
     isNotEmpty: (value:string) => {
         // valida que no este vacio
         return value != ""
