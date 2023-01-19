@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es5", 
+      "outDir": "public",
+      "rootDir": "src",
+      "strict": true,
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strictNullChecks": false,
+      "experimentalDecorators": true,
+      "isolatedModules": true,
+      "sourceMap": false
+  },
+  "exclude": ["node_modules"],
+  "include": ["src"]
+}
