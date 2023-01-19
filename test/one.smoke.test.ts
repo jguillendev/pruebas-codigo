@@ -6,7 +6,7 @@ jest.setTimeout(60*1000);
 var browser:Browser;
 var currentPage:Page;
 
-describe('app one - run smoke test', () => {
+describe('Smoke Testing: App One', () => {
 
     beforeAll(async() => {
         browser = await puppeteer.launch();
