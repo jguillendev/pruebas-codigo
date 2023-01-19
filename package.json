@@ -4,10 +4,10 @@
   "description": "mejorando la prueba de gentera",
   "scripts": {
     "one:dev": "npx parcel src/uno.index.html --port 1234 --lazy --open",
-    "two:dev": "npx parcel src/two.index.html --port 1235 --lazy --open",
+    "two:dev": "npx parcel src/dos.index.html --port 1235 --lazy --open",
     "one:build": "npx parcel build src/uno.index.html",
-    "one:test": "npx parcel src/one.index.html --port 1234  --https",
-    "two:test": "npx parcel src/two.index.html --port 1235  --https",
+    "one:test": "npx parcel src/uno.index.html --port 1234  --https",
+    "two:test": "npx parcel src/dos.index.html --port 1235  --https",
     "test": "jest"
   },
   "author": "jguillendev@gmail.com",
